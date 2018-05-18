@@ -19,10 +19,10 @@ public class DataSourceFactory
         MysqlDataSource dataSource = new MysqlDataSource();
         // TODO: make these database setting configurable by moving to properties file
         dataSource.setDatabaseName("rmsdb");
-        dataSource.setServerName("192.168.99.100");
+        dataSource.setServerName("172.17.0.3");
         dataSource.setPort(3306);
-        dataSource.setUser("rms");
-        dataSource.setPassword("rms");
+        dataSource.setUser("root");
+        dataSource.setPassword("test123");
         this.dataSource = dataSource;
     }
 
