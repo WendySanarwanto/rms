@@ -1,0 +1,3 @@
+[submodule "rms-servlet-web/src/main/webapp/lib/Semantic-UI-CSS"]
+	path = rms-servlet-web/src/main/webapp/lib/Semantic-UI-CSS
+	url = git@github.com:Semantic-Org/Semantic-UI-CSS.git
