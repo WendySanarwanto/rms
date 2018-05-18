@@ -1,5 +1,4 @@
 <%@ page language="java" pageEncoding="UTF-8" session="false"%>
-<%@ taglib prefix = "rms" uri = "/WEB-INF/tags/link.tld"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <!doctype html>
 <html lang="en">
@@ -13,7 +12,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <rms:link type="stylesheet" href="css/styles.css?v=1.0"/>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
