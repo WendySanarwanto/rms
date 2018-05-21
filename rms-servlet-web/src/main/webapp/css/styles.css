@@ -17,3 +17,13 @@
      your background is light. */
   color: white;
 }
+
+/*
+======================
+Admin Main Header's styles
+======================
+*/
+
+.admin-main-header {
+  height: 4.5em;
+}
