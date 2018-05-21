@@ -29,7 +29,7 @@
   <!-- Main Container  -->
   <div class="ui container">
     <!-- Main Header menu -->
-    <%@ include file="WEB-INF/includes/header.jsp" %>
+    <%@ include file="WEB-INF/jsp/admin/header.jsp" %>
 
     <!-- TODO: Should check cookie/session for user object with valid role. Otherwise, kick to login page' -->
     <c:if test="${empty user}">
