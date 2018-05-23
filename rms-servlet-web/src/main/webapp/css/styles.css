@@ -20,10 +20,14 @@
 
 /*
 ======================
-Admin Main Header's styles
+Admin's styles
 ======================
 */
 
 .admin-main-header {
   height: 4.5em;
+}
+
+.admin-tab-container {
+  background-color: #eeeeee;
 }

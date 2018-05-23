@@ -1,9 +1,5 @@
-const USER_ACCOUNT_ADMIN_TAB_ID = "admin-user-account-tab";
-const SE_ADMIN_TAB_ID = "admin-se-tab";
-const PROJECT_MANAGERS_ADMIN_TAB_ID = "admin-pm-tab";
-const PROJECTS_ADMIN_TAB_ID = "admin-projects-tab";
-
 const ADMIN_TAB_CLASS = "admin-tab";
+const ADMIN_TABS_CHANGED_EVENT = "adminTabs:changed";
 
 $(document).ready(() => {
   // console.log(`[DEBUG] - <admin.header> On Ready is called.`);
@@ -23,6 +19,6 @@ function onAdminTabClicked(adminTab) {
     $(`#${tabId}`).addClass(`active`);
 
     // Raise a jquery event so that other component could listen on this event and act properly against it.
-    $(document).trigger("adminTabs:changed", [ tabId ]);
+    $(document).trigger(ADMIN_TABS_CHANGED_EVENT, [ tabId ]);
   }
 }  
