@@ -46,6 +46,10 @@ Table List's styles
   padding-top: 1em;
 }
 
-.dataTables_length, .dataTables_filter{
+.dataTables_filter{
   padding-bottom: 1em;
 }
+
+/* .dataTables_length{
+  
+} */
